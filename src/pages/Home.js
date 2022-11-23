@@ -67,7 +67,7 @@ const Home = () => {
       >
         {products.map((product) => (
           <div
-            className='w-[23%] h-[330px] max-sm:w-[95%] sm:w-[46%] md:w-[31%] lg:w-[32%] xl:w-[23%]   bg-[#ffffff] mr-[8px] mb-[8px] flex justify-center items-center flex-wrap rounded-[15px] border z-index-1 shadow-lg shadow-black hover:bg-[#f5f4f0] hover:cursor-pointer hover:shadow-inner'
+            className='w-[23%] h-[330px] max-sm:w-[95%] sm:w-[46%] md:w-[31%] lg:w-[32%] xl:w-[23%]   bg-[#ffffff] mr-[8px] mb-[8px] flex justify-center items-center flex-wrap rounded border z-index-1 shadow-sm shadow-black hover:bg-[#f5f4f0] hover:cursor-pointer hover:shadow-inner'
             data-aos='fade-up'
             data-aos-anchor-placement='top-center'
             onClick={clickProduct}
