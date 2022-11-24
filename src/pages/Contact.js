@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Contact = () => {
+  // const [name, setName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [pnone, setPhone] = useState('');
+  // const [message, setMessage] = useState('');
+  
   return (
     <>
       {' '}
@@ -59,7 +64,6 @@ const Contact = () => {
                       <p className='text-base text-black max-sm:text-white '>
                         cemeagwalieyahoo.com
                       </p>
-                    
                     </div>
                   </div>
                   <div className='mb-8 flex w-[330px] max-w-full'>
