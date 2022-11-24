@@ -7,6 +7,7 @@ import Footer from './Footer';
 import BrandsAvatar from './BrandsAvatar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import orderSheet from '../files/Order_Sheet_VIP_CODE.pdf';
 import Contact from './Contact';
 
 const Home = () => {
@@ -190,7 +191,7 @@ const Home = () => {
       >
         <div className='flex gap-x-[12px] justify-center items-center bg-[rgba(0,0,0,0.5)] w-full h-full'>
           <a
-            href='../files/Order Sheet VIP CODE_1.pdf'
+            href={orderSheet}
             className='inline-block rounded-[3px] border border-white  px-8 py-2.5 text-base font-bolder leading-7 text-white shadow-[20px] text-[23px] hover:cursor-pointer'
             data-aos='fade-right'
             data-aos-offset='100'
