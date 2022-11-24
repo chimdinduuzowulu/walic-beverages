@@ -38,7 +38,7 @@ const Home = () => {
       <Header />
       {/* brands Static image */}
       <div
-        className='w-full h-[360px] bg-no-repeat object-cover flex justify-center items-center'
+        className='w-full h-[360px]  bg-no-repeat object-cover flex justify-center items-center '
         style={{
           backgroundImage: `url(${schwepsPic})`,
           backgroundAttachment: 'fixed',
@@ -132,17 +132,10 @@ const Home = () => {
                             Product Price
                           </dt>
                           <dd className='mt-1 text-sm text-black sm:col-span-2 sm:mt-0'>
-                            $ 2000000
+                            Not available
                           </dd>
                         </div>
-                        {/* <div className='bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-                          <dt className='text-sm font-medium text-gray-500'>
-                            Energy Level
-                          </dt>
-                          <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0'>
-                            Full energy Drink
-                          </dd>
-                        </div> */}
+                        
                         <div className='bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                           <dt className='text-[16px] font-medium text-black font-bold'>
                             Product Description
